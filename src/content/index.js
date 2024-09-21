@@ -1,0 +1,5 @@
+export { default as profile } from './profile'
+export { default as about } from './about'
+export { default as experience } from './experience'
+export { default as education } from './education'
+export { default as projects } from './projects'
