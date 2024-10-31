@@ -1,6 +1,6 @@
 const education = [
   {
-    title: 'M.S. in Computer Science',
+    title: 'M.S. in Computer Science and Engineering',
     location: 'University of Washington',
     startDate: 'sep 2024',
     endDate: 'present',
