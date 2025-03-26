@@ -1,6 +1,6 @@
 const education = [
   {
-    title: 'M.S. in Computer Science and Engineering',
+    title: 'MS in Computer Science and Engineering',
     location: 'University of Washington',
     startDate: 'sep 2024',
     endDate: 'present',
@@ -12,7 +12,7 @@ const education = [
     ],
   },
   {
-    title: 'B.S. in Computer Science',
+    title: 'BS in Computer Science',
     location: 'University of Washington',
     startDate: 'sep 2020',
     endDate: 'jun 2024',
@@ -39,7 +39,7 @@ const education = [
     ],
   },
   {
-    title: 'B.A. in Mathematics',
+    title: 'BA in Mathematics',
     location: 'University of Washington',
     startDate: 'sep 2020',
     endDate: 'jun 2024',
