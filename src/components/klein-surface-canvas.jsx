@@ -2,15 +2,15 @@ import { Suspense } from 'react'
 import { Canvas } from '@react-three/fiber'
 import { OrbitControls, Preload, useGLTF } from '@react-three/drei'
 
-const Earth = () => {
-  const earth = useGLTF('./planet/scene.gltf')
+const KleinSurface = () => {
+  const kleinSurface = useGLTF('./klein-surface/scene.gltf')
 
   return (
-    <primitive object={earth.scene} scale={2.5} position-y={0} rotation-y={0} />
+    <primitive object={kleinSurface.scene} scale={3} position-y={-2.25} />
   )
 }
 
-const EarthCanvas = () => (
+const KleinSurfaceCanvas = () => (
   <Canvas
     className='sm:pr-28'
     shadows
@@ -31,10 +31,14 @@ const EarthCanvas = () => (
         maxPolarAngle={Math.PI / 2}
         minPolarAngle={Math.PI / 2}
       />
-      <Earth />
+      <ambientLight intensity={2} />
+      <directionalLight position={[5, 5, 5]} intensity={1} castShadow />
+      <pointLight position={[-5, 5, 5]} intensity={0.8} />
+      <spotLight position={[0, 10, 0]} angle={0.3} intensity={1} castShadow />
+      <KleinSurface />
       <Preload all />
     </Suspense>
   </Canvas>
 )
 
-export default EarthCanvas
+export default KleinSurfaceCanvas

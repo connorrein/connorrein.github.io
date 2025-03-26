@@ -4,7 +4,7 @@ import About from './about'
 import Experience from './experience'
 import Education from './education'
 import Projects from './projects'
-import EarthCanvas from './earth-canvas'
+import KleinSurfaceCanvas from './klein-surface-canvas'
 
 const App = () => (
   <div className='font-sans bg-slate-900 text-slate-400'>
@@ -12,7 +12,7 @@ const App = () => (
       <div className='lg:flex lg:justify-between lg:gap-4'>
         <header className='lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-2/5 lg:flex-col lg:justify-between lg:py-24'>
           <Hero />
-          <EarthCanvas />
+          <KleinSurfaceCanvas />
           <SocialMedias />
         </header>
         <main className='pt-20 lg:w-3/5 lg:py-24'>
