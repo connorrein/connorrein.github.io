@@ -1,13 +1,36 @@
 const experience = [
   {
-    title: 'Teaching Assistant',
+    title: 'Software Engineering Teaching Assistant',
+    location: 'University of Washington',
+    startDate: 'jan 2025',
+    endDate: 'present',
+    description: `Teach software engineering to 70+ students. Manage group
+    projects, run lecture demos, grade assignments, and write exams.`,
+    skills: [
+      'software development lifecycles',
+      'scrum',
+      'software requirements',
+      'version control',
+      'software architecture and design',
+      'CI/CD',
+      'testing',
+      'intellectual property',
+    ]
+  },
+  {
+    title: 'Compiler Construction Teaching Assistant',
     location: 'University of Washington',
     startDate: 'sep 2023',
-    endDate: 'present',
-    description: `Teach compiler construction to 70+ students, with duties
-    including hosting office hours, leading classroom sections, grading,
-    managing internal course infrastructure, and writing exams.`,
+    endDate: 'dec 2024',
+    description: `Taught compiler construction to 140+ students. Hosted office
+    hours, led classroom sections, graded assignments, managed internal course
+    infrastructure, and wrote exams.`,
     skills: [
+      'lexing',
+      'parsing',
+      'semantic analysis',
+      'optimization',
+      'code generation',
       'Java',
       'JFlex',
       'CUP',
