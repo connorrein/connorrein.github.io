@@ -3,7 +3,7 @@ const experience = [
     title: 'Software Engineering Teaching Assistant',
     location: 'University of Washington',
     startDate: 'jan 2025',
-    endDate: 'present',
+    endDate: 'jun 2025',
     description: `Instructed 150+ students in the University of Washington's
     CSE 403: Software Engineering course. Oversaw team-based projects, delivered
     live lecture demonstrations, graded assignments, and authored exam
