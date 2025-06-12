@@ -4,8 +4,10 @@ const experience = [
     location: 'University of Washington',
     startDate: 'jan 2025',
     endDate: 'present',
-    description: `Teach software engineering to 70+ students. Manage group
-    projects, run lecture demos, grade assignments, and write exams.`,
+    description: `Instructed 150+ students in the University of Washington's
+    CSE 403: Software Engineering course. Oversaw team-based projects, delivered
+    live lecture demonstrations, graded assignments, and authored exam
+    materials.`,
     skills: [
       'software development lifecycles',
       'scrum',
@@ -22,9 +24,10 @@ const experience = [
     location: 'University of Washington',
     startDate: 'sep 2023',
     endDate: 'dec 2024',
-    description: `Taught compiler construction to 140+ students. Hosted office
-    hours, led classroom sections, graded assignments, managed internal course
-    infrastructure, and wrote exams.`,
+    description: `Instructed 140+ students in the University of Washington's
+    CSE 401 and CSE M 501: Compiler Construction courses. Led classroom
+    sections, hosted office hours, graded assignments, managed course
+    infrastructure, and authored exam materials.`,
     skills: [
       'lexing',
       'parsing',

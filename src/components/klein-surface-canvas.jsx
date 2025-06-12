@@ -6,24 +6,17 @@ const KleinSurface = () => {
   const kleinSurface = useGLTF('./klein-surface/scene.gltf')
 
   return (
-    <primitive object={kleinSurface.scene} scale={3} position-y={-2.25} />
+    <primitive
+      object={kleinSurface.scene}
+      scale={3}
+      position-x={0.5}
+      position-y={-2}
+    />
   )
 }
 
 const KleinSurfaceCanvas = () => (
-  <Canvas
-    className='sm:pr-28'
-    shadows
-    frameloop='always'
-    dpr={[1, 2]}
-    gl={{ preserveDrawingBuffer: true }}
-    camera={{
-      fov: 45,
-      near: 0.1,
-      far: 200,
-      position: [-4, 3, 6],
-    }}
-  >
+  <Canvas>
     <Suspense>
       <OrbitControls
         autoRotate
