@@ -8,15 +8,15 @@ const KleinSurface = () => {
   return (
     <primitive
       object={kleinSurface.scene}
-      scale={3}
+      scale={3.25}
       position-x={0.5}
-      position-y={-2}
+      position-y={-2.25}
     />
   )
 }
 
 const KleinSurfaceCanvas = () => (
-  <Canvas>
+  <Canvas className='mx-auto aspect-square max-w-xs lg:max-w-full'>
     <Suspense>
       <OrbitControls
         autoRotate
