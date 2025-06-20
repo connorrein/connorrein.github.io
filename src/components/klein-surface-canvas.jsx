@@ -6,12 +6,7 @@ const KleinSurface = () => {
   const kleinSurface = useGLTF('./klein-surface/scene.gltf')
 
   return (
-    <primitive
-      object={kleinSurface.scene}
-      scale={3.25}
-      position-x={0.5}
-      position-y={-2.25}
-    />
+    <primitive object={kleinSurface.scene} scale={3.25} position-y={-2.25} />
   )
 }
 
