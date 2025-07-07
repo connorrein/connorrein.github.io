@@ -11,7 +11,7 @@ const KleinSurface = () => {
 }
 
 const KleinSurfaceCanvas = () => (
-  <Canvas className='mx-auto aspect-square max-w-xs lg:max-w-full'>
+  <Canvas className='mx-auto aspect-square max-w-xs'>
     <Suspense>
       <OrbitControls
         autoRotate
